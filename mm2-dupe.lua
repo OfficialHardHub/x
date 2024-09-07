@@ -5,18 +5,11 @@ local PhantomForcesWindow = Library:NewWindow("🔥  HARDHUB-MM2")
 local KillingCheats = PhantomForcesWindow:NewSection("💠  DUPE")
 
 KillingCheats:CreateButton("Dupe 2X", function()
-
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "✅ Starting Dupe!";
     Text = "⏳ Wait 1 Minute, " .. players.LocalPlayer.DisplayName;
     Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true"; "
     Duration = 30
-})local players = game:GetService("Players")
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "✅ Loading Dupe..";
-    Text = "⏳ Wait 1 Minute, " .. players.LocalPlayer.DisplayName;
-    Icon = "rbxthumb://type=AvatarHeadShot&id=" .. players.LocalPlayer.UserId .. "&w=180&h=180 true";
-    Duration = 20
 })
 
 wait(60)
