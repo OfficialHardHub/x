@@ -20,7 +20,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 wait(60)
-loadstring(Game:HttpGet("local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local UIPath
